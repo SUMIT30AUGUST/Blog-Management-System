@@ -72,7 +72,7 @@ const EditBlog = () => {
 
       navigate('/');
     } catch (err) {
-      setError('Failed to update blog');
+      setError('Failed to update blog/try different blog name');
     }
   };
 

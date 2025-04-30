@@ -48,7 +48,7 @@ const AddBlog = () => {
 
       navigate('/');
     } catch (err) {
-      setError('Failed to create blog');
+      setError('Failed to create blog/try different blog name');
     }
   };
 
